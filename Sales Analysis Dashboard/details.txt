@@ -1,0 +1,21 @@
+Sales Analytics
+-------------------------------------------
+Problem Statement: The report aims to analyze and deliver comprehensive insights into sales, profits, orders, profit margins, and various comparisons. Its goal is to provide a clear understanding of key performance indicators and trends through Power BI. The KPIs are as follows.
+1.Total Sales: Analyze overall sales performance.
+2.Total Profit: Evaluate profitability across all transactions.
+3.Total Orders: Track the total number of orders processed.
+4.Profit Margin: Assess profitability by calculating the profit margin.
+5.Sales Comparison by Product (Year-over-Year): Compare product sales with the previous year, highlighting growth or decline in sales. Hovering shows a tool tip.
+6.Monthly Sales Comparison (Year-over-Year): Analyze sales trends by month, compared to the previous year, highlighting growth or decline in sales.
+7.Top 5 Cities by Sales: Identify the top-performing cities based on sales.
+8.Profit Comparison by Channel (Year-over-Year): Compare profitability across different sales channels with the previous year, indicating improvements or challenges in profitability.
+9.Customer Sales Analysis (Year-over-Year): Analyze sales performance by customer and compare with the previous year.
+10.Interactive Filters: Enable prompts for Date, City, Product, and Channel to enhance report interactivity.
+
+Steps followed for end-to-end are as follows
+1. Gathered data from an online source
+2. Cleaned and transformed data with Power Query
+3. Created a Date Table to work with DAX time intelligence functions
+4. Created a data model. Created star schema and established relationship between Sales table, Date table, Region table, product table and customer table.
+5. Created a new measure table to keep separate custom columns and DAX
+6. Created the different visuals, tool tips, conditional formatting and interactive filters.
